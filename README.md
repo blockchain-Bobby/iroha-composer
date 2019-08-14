@@ -49,7 +49,7 @@ Please ensure that the files match their expected naming convetions else the Dae
 
 services:
   iroha:
-    image: hyperledger/iroha:latest
+    image: hyperledger/iroha:master # pulls latest build
     container_name: iroha-testnet
     depends_on:
       - some-postgres
