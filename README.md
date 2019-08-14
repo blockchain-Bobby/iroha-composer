@@ -1,26 +1,4 @@
-####Biocrypt Iroha Proof of Concept
-
-* try and get pending tx's to stream and do push notifications.
-
-all information gets written to the patients account.
-
-* patient has an account with a specific hospital / medical establishment.
-* each establishment servers as a domain and has peers
-* each domain has their staff members as users with different roles
-
-#know your md
-
-Roles: Sets of permissions applied to users accounts
-
-frontdesk - writes admin details to accounts e.g. apointments.
-
-doctor - read sets account details.
-pharmacist
-nurse
-
-patient
-
-sys_admin
+####Iroha Docker Compose
 
 
 #How To Run:
