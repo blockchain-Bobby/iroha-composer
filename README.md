@@ -3,7 +3,7 @@
 
 # How To Run:
 
-##Iroha Distributed Ledger
+## Iroha Distributed Ledger
 
 * Ubuntu 16 or 18
 * Docker + Docker Compose
@@ -63,10 +63,10 @@ services:
       - IROHA_POSTGRES_USER=postgres
       - IROHA_POSTGRES_PASSWORD=mysecretpassword - Change this for production, as well as on all of the corrosponding config files
     entrypoint:
-      - /opt/iroha_data/entrypoint.sh
+    - /opt/iroha_data/entrypoint.sh
     networks:
-      - iroha
+    - iroha
     volumes:
       - ./iroha:/opt/iroha_data
     ports:
-      - 50051:50051 [Default gRPC port for Iroha, if this port is occupied change it accordingly. Note that all commands & queries will need to Correct Ports and would need to know this in advance for commiting transactions. This is exposed to the public. Normal security mesures will need to be implemented]
+    - 50051:50051 [Default gRPC port for Iroha, if this port is occupied change it accordingly. Note that all commands & queries will need to Correct Ports and would need to know this in advance for commiting transactions. This is exposed to the public. Normal security mesures will need to be implemented]
