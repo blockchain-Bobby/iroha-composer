@@ -1,7 +1,7 @@
-####Iroha Docker Compose
+#### Iroha Docker Compose
 
 
-#How To Run:
+# How To Run:
 
 ##Iroha Distributed Ledger
 
@@ -41,7 +41,7 @@ remove --overwrite-ledger flag. The last line of the bash script will look like 
 
 irohad --genesis_block genesis.block --config config.docker --keypair_name $KEY
 
-#Advanced Config
+# Advanced Config
 
 If launching multiple nodes, the following enviroment variables will need to be amended accordingly.
 
